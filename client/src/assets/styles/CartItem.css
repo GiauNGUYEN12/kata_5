@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cartBody{
+    display: flex;
+    align-items: center;
+    border: solid black;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+    
+    width: 35rem;
+    height: 8rem;
+}
+
+img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.imgBody{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.buttonCommander{
+    border: solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #98FB98;
+    font-weight: bold;
+}
+.buttonCommander:hover{
+    background-color: #FF6347;
+}

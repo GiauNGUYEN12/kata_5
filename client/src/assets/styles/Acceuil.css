@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.acceuilBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.brocoli {
+    font-size: 90px; /* Augmente la taille de l'emoji */
+}
+
+.inputBody{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.inputAccueil{
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    /*outline: none;*/
+    transition: all 0.3s ease-in-out;
+}
+p{
+    font-size: 1.2rem;
+}
+.buttonAcceuil{
+    width: 6rem;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    background-color:#4caf50 ;
+    border: none; 
+    color: white;
+    font-weight: bold;
+}
+.buttonAcceuil:hover {
+    background-color: #388e3c;
+}
+.buttonBody{
+    display: flex;
+    justify-content: center;
+}

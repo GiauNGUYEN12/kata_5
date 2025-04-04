@@ -1,0 +1,11 @@
+.CartItemListBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement (si height défini) */
+    align-items: center; /* Centre horizontalement */
+    width: 100%; /* Occupe toute la largeur */
+    max-width: 800px; /* Ajuste selon ton design */
+    margin: 0 auto; 
+    
+    overflow: auto;
+}

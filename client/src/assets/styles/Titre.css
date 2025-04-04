@@ -1,0 +1,12 @@
+.titreBody{
+    display: flex;
+    flex-direction: column;/* Centre verticalement (si height défini) */
+    align-items: center; /* Centre horizontalement */
+    justify-content: center;
+    width: 100%; /* Occupe toute la largeur */
+    /*height: 50rem;*/
+    max-width: 600px; /* Ajuste selon ton design */
+    margin-bottom: 1.5rem;
+    margin-top: 8rem;
+    margin-left: 15rem;
+}
